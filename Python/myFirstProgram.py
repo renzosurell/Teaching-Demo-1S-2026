@@ -1,7 +1,15 @@
-print("Hello World!")  #This is an example of single-line comment.
-    
+print("Hi there!")
+print("I am learning Python")
+
 """
-This is an example of multi-line comment.
-You can place comments anywhere in the code, whether they are single-line or multiline comments, because they are not executable.
-We can use comments to convey information to anyone who reads our code.
+#printing on the same line
+print("Hi there!", end=" ")
+print("I am learning Python")
+
+#printing number
+print(6)
+
+#printing expression
+print(6 + 7)
+
 """

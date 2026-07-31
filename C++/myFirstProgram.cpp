@@ -1,15 +1,32 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    cout << "Hello World!";  //This is an example of single-line comment.
-    
-    /*
-        This is an example of multi-line comment.
-        You can place comments anywhere in the code, whether they are single-line or multiline comments, because they are not executable.
-        We can use comments to convey information to anyone who reads our code.
-    */
+int main() {
 
+    //adding newline using \n
+    cout << "Hi there! \n";
+    cout << "I am learning C++";
     return 0;
+
+    /* 
+
+    //alternative for adding newline
+    cout << "Hi there!" << "\n";
+    cout << "I am learning C++";
+    return 0;
+    
+    //alternative for adding newline
+    cout << "Hi there!" << endl;
+    cout << "I am learning C++";
+    return 0;
+
+    //printing number
+    cout << 6;
+    return 0;
+
+    //printing expression
+    cout << (6 + 7);
+    return 0;
+
+    */
 }
