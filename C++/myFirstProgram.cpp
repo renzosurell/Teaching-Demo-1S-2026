@@ -2,21 +2,16 @@
 using namespace std;
 
 int main() {
+    int x = 6;
+    int y = 3;
 
-    //declaring/initializing variables
-    int whole_number = 6;
-    double num1 = 6.99999;
-    char singleCharacter = 'A';
-    string word = "asdASD123!@#";
+    //Arithmetic Operators
+    
+    cout << (x + y) << "\n";    //addition
+    cout << (x - y) << "\n";    //subtraction
+    cout << (x * y) << "\n";    //multiplication
+    cout << (x / y) << "\n";    //division
+    cout << (x % y) << "\n";    //modulus
 
-    //declaring/initializing constant variable
-    const double pi = 3.1415;
-
-    //printing values
-    cout << "The value of the variable \"whole_number\" is: " << whole_number << "\n";
-    cout << "The value of the variable \"num1\" is: " << num1 << "\n";
-    cout << "The value of the variable \"singleCharacter\" is: " << singleCharacter << "\n";
-    cout << "The value of the variable \"word\" is: " << word << "\n";
-    cout << "The value of the variable \"pi\" is: " << pi << "\n";
-
+    return 0;
 }
