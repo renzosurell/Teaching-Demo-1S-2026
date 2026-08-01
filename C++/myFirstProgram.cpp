@@ -3,22 +3,18 @@ using namespace std;
 
 int main() {
 
-    int x = 6;          //the assignment operator
-    cout << "The value of x after initialization:" << x << "\n";
-    cout << "\n";
+    double circumference, radius;
+    const double pi = 3.1415;
 
-    cout << "The value of x applying increment operator: " << ++x << "\n";
-    cout << "The value of x applying decrement operator: " << --x << "\n";
+    cout << endl;
+    cout << "\t*** My Circumference Calculator ***" << endl << endl;
+    cout << "\t\tPlease Enter the radius: ";
+    cin >> radius;
 
-    cout << "\n";
+    circumference = 2 * pi * radius;
 
-    cout << "The value of x applying post-increment operator: " << x++ << "\n";
-    cout << "The value of x after previous statement: " << x << "\n";
-
-    cout << "\n";
-
-    cout << "The value of x applying post-decrement operator: " << x-- << "\n";
-    cout << "The value of x after previous statement: " << x << "\n";
-
-    return 0;
+    cout << endl;
+    cout << "\t\tThe circumference of the circle with a radius of " << radius << " is: " << circumference << endl << endl;
+    cout << "\t*** Thank you! ***" << endl;
+    cout << " ";
 }
